@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'DropBox',
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: ProfileScreen(),
     );
   }
 }
