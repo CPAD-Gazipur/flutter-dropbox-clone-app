@@ -117,3 +117,38 @@ List<Folder> folders = [
     folderDate: 'October 16, 2023',
   ),
 ];
+
+List<Folder> profileFolders = [
+  Folder(
+    folderColor: kLightBlueColor,
+    textColor: kBlueColor,
+    folderIcon: ImageUtils.icFolderBlue,
+    moreIcon: ImageUtils.icMoreBlue,
+    folderName: 'Mobile apps',
+    folderDate: 'December 20, 2020',
+  ),
+  Folder(
+    folderColor: kLightYellowColor,
+    textColor: kYellowColor,
+    folderIcon: ImageUtils.icFolderYellow,
+    moreIcon: ImageUtils.icMoreYellow,
+    folderName: 'SVG icons',
+    folderDate: 'December 14, 2022',
+  ),
+  Folder(
+    folderColor: kLightRedColor,
+    textColor: kRedColor,
+    folderIcon: ImageUtils.icFolderRed,
+    moreIcon: ImageUtils.icMoreRed,
+    folderName: 'Prototypes',
+    folderDate: 'January 13, 2022',
+  ),
+  Folder(
+    folderColor: kLightGreenColor,
+    textColor: kBlueDiamondsColor,
+    folderIcon: ImageUtils.icFolderBlueDiamond,
+    moreIcon: ImageUtils.icMoreBlueDiamond,
+    folderName: 'Avatars',
+    folderDate: 'October 16, 2023',
+  ),
+];
